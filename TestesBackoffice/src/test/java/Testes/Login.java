@@ -13,7 +13,7 @@ public class Login {
 
 	// ValidarUser validar = new ValidarUser();
 
-	@Given("Esteja na tela de login")
+	@Given("esteja na tela de login")
 	public void esteja_na_tela_de_login() {
 		metodos.abrirNavegador("https://front-backoffice-stg-ioglxjjbfa-ue.a.run.app/login", "CHROME",
 				"acessando site do loja");
